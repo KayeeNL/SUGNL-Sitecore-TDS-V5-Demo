@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TDSAnalysis>
+  <Rules>
+    <Rule validator="HedgehogDevelopment.SitecoreProject.Analysis.ShouldBeAlwaysUpdateWithChildren, HedgehogDevelopment.SitecoreProject.Analysis, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" severity="Error">
+      <ValidatorSettings>
+        <Properties>
+          <add>/sitecore/templates/</add>
+          <add>/sitecore/layout/</add>
+        </Properties>
+        <Settings />
+      </ValidatorSettings>
+    </Rule>
+  </Rules>
+</TDSAnalysis>

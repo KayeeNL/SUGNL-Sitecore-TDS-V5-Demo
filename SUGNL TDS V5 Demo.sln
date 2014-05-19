@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30110.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{37B44726-BD3B-459F-836F-DCF5C9D92CF4}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{CAA73BB0-EF22-4D79-A57E-DF67B3BA9C80}") = "SUGNL TDS Master", "SUGNL TDS Master\SUGNL TDS Master.scproj", "{864BA0AF-8A04-497B-9E83-79629B5C6F6E}"
+EndProject
+Project("{CAA73BB0-EF22-4D79-A57E-DF67B3BA9C80}") = "SUGNL TDS Core", "SUGNL TDS Core\SUGNL TDS Core.scproj", "{531B4BE5-120E-4144-831C-E80BE9BE6133}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Website", "Website\Website.csproj", "{1C1C00FD-056B-4D96-A8F7-7E9122D6E8DC}"
+EndProject
+Project("{CAA73BB0-EF22-4D79-A57E-DF67B3BA9C80}") = "SUGNL TDS Base", "SUGNL TDS Base\SUGNL TDS Base.scproj", "{621BD932-9C5C-448A-B3A9-CA39F80CE2B1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".tds", ".tds", "{5F185A67-D1CB-4A36-8745-4929A3EB4193}"
+	ProjectSection(SolutionItems) = preProject
+		TdsGlobal.config = TdsGlobal.config
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{864BA0AF-8A04-497B-9E83-79629B5C6F6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{864BA0AF-8A04-497B-9E83-79629B5C6F6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{864BA0AF-8A04-497B-9E83-79629B5C6F6E}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{864BA0AF-8A04-497B-9E83-79629B5C6F6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{864BA0AF-8A04-497B-9E83-79629B5C6F6E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{864BA0AF-8A04-497B-9E83-79629B5C6F6E}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{531B4BE5-120E-4144-831C-E80BE9BE6133}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{531B4BE5-120E-4144-831C-E80BE9BE6133}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{531B4BE5-120E-4144-831C-E80BE9BE6133}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{531B4BE5-120E-4144-831C-E80BE9BE6133}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{531B4BE5-120E-4144-831C-E80BE9BE6133}.Release|Any CPU.Build.0 = Release|Any CPU
+		{531B4BE5-120E-4144-831C-E80BE9BE6133}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{1C1C00FD-056B-4D96-A8F7-7E9122D6E8DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C1C00FD-056B-4D96-A8F7-7E9122D6E8DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C1C00FD-056B-4D96-A8F7-7E9122D6E8DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C1C00FD-056B-4D96-A8F7-7E9122D6E8DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{621BD932-9C5C-448A-B3A9-CA39F80CE2B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{621BD932-9C5C-448A-B3A9-CA39F80CE2B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{621BD932-9C5C-448A-B3A9-CA39F80CE2B1}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{621BD932-9C5C-448A-B3A9-CA39F80CE2B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{621BD932-9C5C-448A-B3A9-CA39F80CE2B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{621BD932-9C5C-448A-B3A9-CA39F80CE2B1}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
